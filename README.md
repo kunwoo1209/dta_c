@@ -6,7 +6,7 @@ The tool dynamically measures data dependencies between functions in a target pr
 Input: target program, system test cases
 Output: Measured data dependencies between functions
 
-![](header.png)
+![](dta.png)
 
 ## Installation
 
