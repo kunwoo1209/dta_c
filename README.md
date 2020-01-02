@@ -3,26 +3,15 @@ Dynamic Taint Analysis for C program
 
 The tool dynamically measures data dependencies between functions in a target program using dynamic taint analysis.
 
-Input: target program, system test cases \n
-Output: Measured data dependencies between functions \n
+Input: target program, system test cases
+
+Output: Measured data dependencies between functions
+
+OS: Ubuntu 16.04.6 LTS
 
 ![](dta.png)
 
-## Installation
-
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Usage example
+## Usage
 
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
