@@ -13,6 +13,8 @@ OS: Ubuntu 16.04.6 LTS
 
 Clang Version: 4.0
 
+Python Version: 2.7
+
 ## Usage
 
 Steps
