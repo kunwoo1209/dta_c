@@ -3,8 +3,8 @@ Dynamic Taint Analysis for C program
 
 The tool dynamically measures data dependencies between functions in a target program using dynamic taint analysis.
 
-Input: target program, system test cases \\
-Output: Measured data dependencies between functions \\
+Input: target program, system test cases \n
+Output: Measured data dependencies between functions \n
 
 ![](dta.png)
 
