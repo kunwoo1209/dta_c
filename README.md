@@ -5,7 +5,7 @@ The tool dynamically measures data dependencies between functions in a target pr
 
 Input: target C program, system test cases
 
-Output: Measured data dependencies between functions
+Output: measured data dependencies between functions
 
 OS: Ubuntu 16.04.6 LTS
 
