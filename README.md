@@ -7,11 +7,11 @@ Input: target C program, system test cases
 
 Output: measured data dependencies between functions
 
+![](dta.png)
+
 OS: Ubuntu 16.04.6 LTS
 
 Clang Version: 4.0
-
-![](dta.png)
 
 ## Usage
 
