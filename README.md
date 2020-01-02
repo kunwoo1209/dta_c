@@ -3,7 +3,7 @@ Dynamic Taint Analysis for C program
 
 The tool dynamically measures data dependencies between functions in a target program using dynamic taint analysis.
 
-Input: target program, system test cases
+Input: target C program, system test cases
 
 Output: Measured data dependencies between functions
 
@@ -13,9 +13,25 @@ OS: Ubuntu 16.04.6 LTS
 
 ## Usage
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+Steps
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+1. Preprocess a target C program using the following command: 
+
+```sh
+gcc -undef -E [target C file] > [pre-processed C file]
+```
+
+2. Put the preprocessed c file and the 5 files (combine_result.py, duchain.py, instrumentor, list_function, script.sh) in the same directory.
+
+2. Modify script.sh (commented as "need to set") to set program name and system test cases.
+
+3. Run script.sh
+
+4. Check the result in [program name]_function_correlation.csv
+
+
+
+For more information please contact kunwoo1209@gmail.com
 
 ## Development setup
 
@@ -64,11 +80,3 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/yourname/yourproject/wiki
-
-
-
-Steps
-1. Put all 5 attached files in the same directory with pre-processed target program. 
-2. Modify script.sh (commented as "need to set")
-3. Run script.sh
-4. Check the result in [PROGRAM_NAME]_function_correlation.csv
